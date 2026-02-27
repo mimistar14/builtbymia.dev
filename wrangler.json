@@ -2,6 +2,6 @@
   "name": "builtbymia-website",
   "compatibility_date": "2026-02-28",
   "assets": {
-    "directory": "./builtbymia.dev"
+    "directory": "./src"
   }
 }
