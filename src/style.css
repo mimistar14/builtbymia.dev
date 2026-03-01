@@ -1,3 +1,60 @@
 h1 {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
 }
+
+span {
+    padding-left: 5px;
+}
+
+span.center {
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+div {
+    text-align: center;
+    gap: 50px;
+}
+
+span:hover {
+    background-color: rgb(143, 202, 163);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+a.nav {
+    text-decoration: none;
+    /* color: rgb(75, 153, 101); */
+    color: black;
+}
+
+a.nav-center {
+    text-decoration: none;
+    /* color: rgb(75, 153, 101); */
+    color: black;
+    text-align: center;
+}
+
+a:hover {
+    color: black;
+}
+
+a {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+p {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+/* body {
+    background-color:rgb(238, 255, 244)
+} */
