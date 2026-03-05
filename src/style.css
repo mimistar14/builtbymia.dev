@@ -11,9 +11,14 @@ h3 {
 div.nav-container {
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 0px;
-    width: 100%
+    width: 100%;
+}
+
+div.padding {
+    padding-left: 10%;
+    padding-right: 10%
 }
 
 span {
@@ -54,6 +59,10 @@ p {
     padding: 10px;
 }
 
+p.center {
+    text-align: center;
+}
+
 div.grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -70,8 +79,8 @@ img.pc_screen {
     opacity: 0;
     width: 24%;
     position: relative;
-    bottom: 201px;
-    left: 129px;
+    bottom: 62%;
+    left: 35%;
     transition: opacity 1s;
 }
 
