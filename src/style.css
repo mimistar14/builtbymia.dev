@@ -3,19 +3,32 @@ h1 {
     text-align: center;
 }
 
-span {
-    padding-left: 5px;
+h3 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    padding-left: 20px;
 }
 
-span.center {
-    padding-right: 5px;
-    padding-left: 5px;
-    padding-top: 10px;
-}
-
-div {
+div.nav-container {
     text-align: center;
-    gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px;
+    width: 100%;
+}
+
+div.padding {
+    padding-left: 10%;
+    padding-right: 10%
+}
+
+span {
+    padding: 5px;
+}
+
+span.focused {
+    background-color: rgb(143, 202, 163);
+    padding: 5px;
+    border-radius: 10px;
 }
 
 span:hover {
@@ -24,17 +37,10 @@ span:hover {
     border-radius: 10px;
 }
 
-a.nav {
+a.projects {
     text-decoration: none;
-    /* color: rgb(75, 153, 101); */
-    color: black;
-}
-
-a.nav-center {
-    text-decoration: none;
-    /* color: rgb(75, 153, 101); */
-    color: black;
-    text-align: center;
+    font-size: larger;
+    color: rgb(50, 97, 65);
 }
 
 a:hover {
@@ -43,10 +49,50 @@ a:hover {
 
 a {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-decoration: none;
+    /* color: rgb(75, 153, 101); */
+    color: black;
 }
 
 p {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+    padding: 10px;
+}
+
+p.center {
+    text-align: center;
+}
+
+div.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+
+img.pc_image {
+    width: 100%
+}
+
+img.pc_screen {
+    opacity: 0;
+    width: 24%;
+    position: relative;
+    bottom: 62%;
+    left: 35%;
+    transition: opacity 1s;
+}
+
+img.pc_screen:hover {
+    opacity: 1;
+}
+
+img.storyboard {
+    width: 100%;
+}
+
+div.paint {
     text-align: center;
 }
 
