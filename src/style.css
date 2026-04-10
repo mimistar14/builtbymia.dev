@@ -50,7 +50,7 @@ div.nav-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 0px;
-    width: 100%;
+    width: auto;
     padding: 5px;
 }
 
@@ -67,7 +67,11 @@ div.experience-grid {
 }
 
 div.vert-centre {
-    padding-top: 5%;
+    padding-top: 9px;
+}
+
+div.vert-centre-intro-text {
+    padding-top: 15%;
 }
 
 div.padding {
