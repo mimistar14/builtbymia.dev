@@ -67,7 +67,11 @@ div.experience-grid {
 }
 
 div.vert-centre {
-    padding-top: 5%;
+    padding-top: 9px;
+}
+
+div.vert-centre-intro-text {
+    padding-top: 15%;
 }
 
 div.padding {
