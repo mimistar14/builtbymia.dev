@@ -28,6 +28,102 @@ footer {
   margin-top: auto;
 }
 
+@media only screen and (max-width: 600px) {
+    img.pc_image {
+        opacity: 0;
+        width: 0;
+    }
+
+    img.pc_screen {
+        opacity: 0;
+        width: 0;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    img.pc_image {
+        opacity: 0;
+        width: 0;
+    }
+
+    img.pc_screen {
+        opacity: 0;
+        width: 0;
+    }
+}
+
+/* @media only screen and (min-width: 768px) {
+    div.grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    div.vert-centre-intro-text {
+        padding-top: 10%;
+    }
+
+    img.pc_image {
+        opacity: 1;
+        width: 100%;
+    }
+
+    img.pc_screen {
+        opacity: 1;
+        width: 24%;
+        position: relative;
+        bottom: 62%;
+        left: 35%;
+        transition: opacity 1s;
+    }
+
+    img.pc_screen:hover {
+        opacity: 1;
+    }
+}  */
+
+@media only screen and (min-width: 840px) {
+    div.grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    div.vert-centre-intro-text {
+        padding-top: 10%;
+    }
+
+    img.pc_image {
+        opacity: 1;
+        width: 100%;
+    }
+
+    img.pc_screen {
+        opacity: 0;
+        width: 24%;
+        position: relative;
+        bottom: 62%;
+        left: 35%;
+        transition: opacity 1s;
+    }
+
+    img.pc_screen:hover {
+        opacity: 1;
+    }
+
+    div.experience-grid {
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }   
+} 
+
+@media only screen and (min-width: 992px) {
+    div.vert-centre-intro-text {
+        padding-top: 15%;
+    }
+} 
+
 h1 {
     font-family: "Cascadia Code", monospace;
     text-align: center;
@@ -54,24 +150,8 @@ div.nav-container {
     padding: 5px;
 }
 
-div.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-}
-
-div.experience-grid {
-    display: grid;
-    text-align: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
 div.vert-centre {
     padding-top: 9px;
-}
-
-div.vert-centre-intro-text {
-    padding-top: 15%;
 }
 
 div.padding {
@@ -81,6 +161,10 @@ div.padding {
 
 div.paint {
     text-align: center;
+}
+
+img.paint {
+    max-width: 50%;
 }
 
 span {
@@ -128,7 +212,7 @@ p {
 
 p.pixel {
     font-family: "Bitcount Single", monospace;
-    font-size: 22px;
+    font-size: 150%;
     color: rgb(199, 61, 192);
 } 
 
@@ -138,23 +222,6 @@ p.center {
 
 img.icon {
     width: 48px;
-}
-
-img.pc_image {
-    width: 100%
-}
-
-img.pc_screen {
-    opacity: 0;
-    width: 24%;
-    position: relative;
-    bottom: 62%;
-    left: 35%;
-    transition: opacity 1s;
-}
-
-img.pc_screen:hover {
-    opacity: 1;
 }
 
 img.storyboard {
@@ -170,3 +237,4 @@ iframe {
     text-align: center;
     font-size: small;
 }
+
