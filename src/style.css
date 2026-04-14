@@ -164,7 +164,7 @@ div.paint {
 }
 
 img.paint {
-    width: 50%;
+    max-width: 50%;
 }
 
 span {
