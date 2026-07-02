@@ -138,10 +138,6 @@ h3 {
     padding: 5px;
 }
 
-.nav-container span {
-    text-decoration: #FAF2DA;
-}
-
 .nav-container a {
     color: #FAF2DA;
 }
@@ -171,7 +167,7 @@ h3 {
     color: #FAF2DA;
     background: #4A503D;
     background: #4A503D;
-background: linear-gradient(90deg, rgba(74, 80, 61, 1) 0%, rgba(142, 151, 117, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(90deg, rgba(74, 80, 61, 1) 0%, rgba(142, 151, 117, 1) 50%, rgba(255, 255, 255, 1) 100%);
 }
 
 .resume img {
